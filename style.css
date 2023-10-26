@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+.fortnite {
+    background-color: #45a049;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 20rem;
+    margin: 20px;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fortnite p {
+    padding: 20px;
+}
+
+body {
+    margin: 10rem auto 0 auto;
+    width: max-content;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+video {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 20px 0 0;
+}
+
+form {
+    display: inline-block;
+    vertical-align: top;
+    width: 20rem;
+    height: 25.3rem;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+textarea {
+    resize: vertical;
+    height: 110px;
+    resize: none;
+}
+
+#submit {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: 0.1s;
+}
+
+#submit:hover {
+    background-color: #45a04900;
+    color: #0a0a0a;
+    border: 1px #000 inset;
+}
+
+#comment {
+    width: 66.5rem;
+    max-height: 8rem;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #0a0a0a;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.02rem;
+}
+
+#profile-picture {
+    float: left;
+    margin-right: 1rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+#profile-picture:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    scale: 500%;
+}
+
+#username {
+    font-weight: 600;
+    margin-top: 0.3rem;
+}
+
+#time-ago {
+    color: #939393;
+    font-weight: normal !important;
+    display: inline;
+}
+
+#time-ago:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+#message {
+    color: #fff;
+    margin-top: 0.2rem;
+}
+
+#like-dislike {
+    margin-top: 0.4rem;
+    color: #fff;
+}
+
+#like,
+#dislike {
+    background-color: #0a0a0a;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 50px;
+    color: #fff;
+    transition: 0.1s;
+}
+
+#like:hover,
+#dislike:hover {
+    cursor: pointer;
+    background-color: #8080805e;
+    scale: 110%;
+}
+
+.bx-tada-hover:hover {
+    animation-iteration-count: 1 !important;
+}
+
+#reply {
+    vertical-align: top;
+    width: 50rem;
+    max-height: 2rem;
+    color: #fff;
+    display: inline;
+}
+
+#reply-btn,
+#delete-btn {
+    background-color: #0a0a0a;
+    border: none;
+    padding: 0.6rem 1.3rem 0.6rem 1.3rem;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1.02rem;
+    text-decoration: none;
+}
+
+#delete-btn {
+    float: right !important;
+}
+
+#reply-btn:hover,
+#delete-btn:hover {
+    cursor: pointer;
+    background-color: #8080805e;
+}
+
+@media screen and (max-width:1120px) {
+    body {
+        margin: 30px 2rem 0 2rem;
+        max-width: 80%;
+    }
+
+    video {
+        margin-right: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    form {
+        display: block;
+        width: 100%;
+        margin: 20px 0 20px 0;
+    }
+
+    #comment {
+        width: 100%;
+    }
+}
